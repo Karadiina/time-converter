@@ -3,7 +3,7 @@
 int main()
 {
 	int seconds, hours, minutes;
-	std::cout << "Give amount of seconds. > " << std::flush;
+	std::cout << "Give amount of seconds! > " << std::flush;
 	std::cin >> seconds;
 	minutes = seconds / 60;
 	hours = minutes / 60;
